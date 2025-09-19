@@ -1,7 +1,11 @@
+import Navbar from "./components/ui/Navbar";
+
 const App = () => {
   return (
-    <div className="text-amber-400">
-      <p>Hii</p>
+    <div className="flex justify-center">
+      <div className="container">
+        <Navbar />
+      </div>
     </div>
   );
 };
